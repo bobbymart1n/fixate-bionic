@@ -1,0 +1,14 @@
+{
+  "name": "claude-bionic-reading",
+  "description": "Bionic reading for Claude Code: bold the start of each word in Claude's replies",
+  "owner": {
+    "name": "bobbymart1n"
+  },
+  "plugins": [
+    {
+      "name": "bionic-reading",
+      "source": "./",
+      "description": "Bold the start of each word in Claude's replies (bionic reading)"
+    }
+  ]
+}
