@@ -12,9 +12,9 @@ import { createCachedTransform } from './transform'
 const STORE_IS_ON = 'isOn'
 const STORE_OVERRIDES = 'overrides'
 
-const isOn = atom({ plugin: 'bionic-reading', key: 'isOn' } as const, true)
+const isOn = atom({ plugin: 'fixate-bionic', key: 'isOn' } as const, true)
 // Settings changed with /bionic, layered over the /config values.
-const overrides = atom({ plugin: 'bionic-reading', key: 'overrides' } as const, {}, {
+const overrides = atom({ plugin: 'fixate-bionic', key: 'overrides' } as const, {}, {
   shape: 'overrides-1',
 })
 

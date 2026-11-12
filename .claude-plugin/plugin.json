@@ -1,14 +1,15 @@
 {
-  "name": "bionic-reading",
-  "version": "0.2.0",
-  "description": "Bold the start of each word in Claude's replies (bionic reading); tune with /bionic or /config",
+  "name": "fixate-bionic",
+  "version": "0.3.0",
+  "description": "FixateBionic: bionic-style reading for Claude Code, bolding the start of each word in replies; tune with /bionic or /config",
   "author": {
     "name": "bobbymart1n",
     "url": "https://github.com/bobbymart1n"
   },
-  "homepage": "https://github.com/bobbymart1n/claude-bionic-reading",
-  "repository": "https://github.com/bobbymart1n/claude-bionic-reading",
+  "homepage": "https://github.com/bobbymart1n/fixate-bionic",
+  "repository": "https://github.com/bobbymart1n/fixate-bionic",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": [
     "bionic-reading",
     "accessibility",

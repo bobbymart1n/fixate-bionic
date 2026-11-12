@@ -11,6 +11,6 @@ export type Settings = {
 
 declare module 'claude-code' {
   interface PluginState {
-    'bionic-reading': { isOn: boolean; overrides: Shaped<Partial<Settings>> }
+    'fixate-bionic': { isOn: boolean; overrides: Shaped<Partial<Settings>> }
   }
 }

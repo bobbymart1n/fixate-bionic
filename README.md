@@ -1,6 +1,6 @@
-# Bionic Reading for Claude Code
+# FixateBionic
 
-A Claude Code plugin that shows Claude's replies in a bionic-reading style: the
+A reading aid for Claude Code. It shows Claude's replies in a bionic-style format: the
 first part of each word is bold, so your eyes can skim from word to word.
 
 > **Secu**rity **fi**rst **me**ans **ze**ro **th**ird-**pa**rty **depen**dencies.
@@ -14,17 +14,17 @@ existing bold or italic text are left as written.
 At the prompt of a Claude Code session in a terminal:
 
 ```
-/plugin install bionic-reading --marketplace bobbymart1n/claude-bionic-reading
+/plugin install fixate-bionic --marketplace bobbymart1n/fixate-bionic
 ```
 
 From a shell:
 
 ```
-claude plugin install bionic-reading --marketplace bobbymart1n/claude-bionic-reading
+claude plugin install fixate-bionic --marketplace bobbymart1n/fixate-bionic
 ```
 
 In the desktop app, where `/plugin` does not run: click **+** next to the prompt
-box, then **Plugins**, **Add marketplace** with `bobbymart1n/claude-bionic-reading`,
+box, then **Plugins**, **Add marketplace** with `bobbymart1n/fixate-bionic`,
 then **Add plugin**.
 
 Answer `y` to add the marketplace, then pick a scope. It's active right away.
@@ -49,7 +49,7 @@ also available as pickers in `/config`; values set with `/bionic` take priority.
 ## Limits
 
 - Terminals and chat surfaces have no letter spacing or variable font weight
-  for replies, so those Bionic Reading options aren't offered.
+  for replies, so those options aren't offered.
 - Words touching `*`, `_` or `~`, or joined to existing bold text, are left
   plain so the reply's markdown never breaks.
 
@@ -75,3 +75,7 @@ To add a setting, add it to `Settings` in `types/index.d.ts`, add a spec to
 ## License
 
 MIT
+
+FixateBionic is an independent project. It is not affiliated with or endorsed
+by Anthropic or Bionic Reading AG. "Claude" is a trademark of Anthropic;
+"Bionic Reading" is a trademark of Bionic Reading AG.
